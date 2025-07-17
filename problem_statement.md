@@ -1,12 +1,12 @@
-# Milk Quality Classification using CNN
+# Milk Quality Classification using ANN
 
 ## Problem Statement
 
-Ensuring the quality of milk is a critical task in the food and dairy industry. Traditional methods rely on manual inspection and lab testing, which are time-consuming and may introduce human bias. To address this, we aim to build a **Convolutional Neural Network (CNN)** based classification model that can predict the **Grade** of milk (Low, Medium, or High) based on its physicochemical and sensory attributes.
+Ensuring the quality of milk is a critical task in the food and dairy industry. Traditional methods rely on manual inspection and lab testing, which are time-consuming and may introduce human bias. To address this, we aim to build a **Artificial Neural Network (ANN)** based classification model that can predict the **Grade** of milk (Low, Medium, or High) based on its physicochemical and sensory attributes.
 
 ## Objective
 
-Develop a deep learning model using **Convolutional Neural Networks (CNN)** to classify milk into one of three quality grades: **Low (Bad), Medium (Moderate), or High (Good)** using a structured dataset of milk attributes.
+Develop a deep learning model using **Artificial Neural Networks (ANN)** to classify milk into one of three quality grades: **Low (Bad), Medium (Moderate), or High (Good)** using a structured dataset of milk attributes.
 
 ## Dataset Description
 
@@ -23,9 +23,9 @@ The dataset contains various features representing the milk's quality parameters
 | `Colour`     | Colour intensity of the milk (measured on a scale) | Numerical   | 240 – 255         |
 | `Grade`      | **Target variable**: Quality grade of the milk     | Categorical | Low, Medium, High |
 
-## Why CNN?
+## Why ANN?
 
-While CNNs are primarily used for image data, this project aims to explore the potential of using **1D CNNs** for structured/tabular data. CNNs can learn local patterns across features, potentially capturing subtle interactions better than traditional models.
+This project aims to explore the potential of using **Vanilla ANNs** for structured/tabular data. ANNs can learn local patterns across features, potentially capturing subtle interactions better than traditional models.
 
 ## Tasks
 
@@ -33,12 +33,12 @@ While CNNs are primarily used for image data, this project aims to explore the p
 
    - Encode categorical features if necessary.
    - Normalize numerical columns.
-   - Convert the tabular data into a format compatible with 1D CNN input.
+   - Convert the tabular data into a format compatible with Vanilla ANN input.
 
 2. **Model Building**
 
-   - Design and train a 1D CNN architecture.
-   - Experiment with hyperparameters and layers (Conv1D, MaxPooling1D, Flatten, Dense).
+   - Design and train a Vanilla ANN architecture using only Dense (fully connected) layers.
+   - Experiment with hyperparameters and number of layers/neurons.
 
 3. **Evaluation**
 
@@ -51,4 +51,4 @@ While CNNs are primarily used for image data, this project aims to explore the p
 
 ## Expected Outcome
 
-A working deep learning model that can classify milk samples into Low, Medium, or High quality with high accuracy using CNN-based architecture.
+A working deep learning model that can classify milk samples into Low, Medium, or High quality with high accuracy using ANN-based architecture.
