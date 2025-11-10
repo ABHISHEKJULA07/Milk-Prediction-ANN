@@ -1,21 +1,30 @@
-# Milk Quality Grade Prediction using ANN (Windows Setup)
+# Deep Learning using ANN to predict Milk Quality Grade
 
-# 1) Create virtual environment
-python -m venv venv
+1. Create virtual env in current folder:
 
-# 2) Activate environment
-.\venv\Scripts\activate
+   ```powershell
+   python -m venv venv
+   ```
 
-# 3) Install required libraries
-pip install kagglehub ipykernel numpy pandas scikit-learn matplotlib seaborn tensorflow
+2. Activate virtual env:
 
-# 4) Export dependencies
-pip freeze > requirements.txt
+   ```powershell
+   .\venv\Scripts\activate
+   ```
 
-# 5) Create Kaggle folder & add kaggle.json (place manually)
-mkdir .kaggle
-# -> Copy your kaggle.json into .kaggle folder
+3. Install `kagglehub` and `ipykernel`:
 
-# 6) Launch notebook
-jupyter notebook
-# -> Open and run main.ipynb
+   ```powershell
+   pip install kagglehub ipykernel
+   ```
+
+4. Save dependencies into `requirements.txt`:
+
+   ```powershell
+   pip freeze | Set-Content requirements.txt
+   ```
+
+5. Put `kaggle.json` in folder called `.kaggle`.
+
+6. Follow the code in main.ipynb.
+replace this
