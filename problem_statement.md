@@ -45,9 +45,6 @@ This project aims to explore the potential of using **Vanilla ANNs** for structu
    - Evaluate the model using accuracy, precision, recall, and F1-score.
    - Use confusion matrix to understand class-wise performance.
 
-4. **Deployment (Optional)**
-
-   - Build a simple UI to input new milk sample data and predict its grade.
 
 ## Expected Outcome
 
