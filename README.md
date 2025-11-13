@@ -1,4 +1,3 @@
-# Deep Learning using ANN to Predict Milk Quality Grade
 
 1. Clone this repo:
    ```powershell
@@ -33,4 +32,4 @@
 6. Put `kaggle.json` in folder called `.kaggle`.
 
 7. Follow the code in main.ipynb.
-replace this
+   
